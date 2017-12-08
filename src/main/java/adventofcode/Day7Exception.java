@@ -1,5 +1,6 @@
 package adventofcode;
 
+@SuppressWarnings("serial")
 public class Day7Exception extends Exception {
 
 	int weight;
