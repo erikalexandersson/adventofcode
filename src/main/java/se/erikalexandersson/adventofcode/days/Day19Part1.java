@@ -10,14 +10,12 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+import se.erikalexandersson.adventofcode.helpers.Direction;
+
 public class Day19Part1 {
 
 	public static void main(String args[]) throws URISyntaxException {
 		System.out.println(route(Paths.get(ClassLoader.getSystemResource("Day19Input.txt").toURI())));
-	}
-
-	private enum Direction {
-		SOUTH, NORTH, EAST, WEST;
 	}
 
 	public static String route(Path path) {
